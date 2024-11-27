@@ -22,7 +22,7 @@
 | `name`              | NVARCHAR(100)     | Название специальности.                             |
 | `description`       | NVARCHAR(MAX)     | Описание специальности.                             |
 
----
+
 
 ### 2. Таблица **groups**
 
@@ -34,7 +34,7 @@
 | `specialization_id` | INT               | Ссылка на специальность (внешний ключ из таблицы `specializations`). |
 | `student_count`     | INT               | Количество студентов в группе.                     |
 
----
+
 
 ### 3. Таблица **students**
 
