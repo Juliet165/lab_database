@@ -1,11 +1,11 @@
--- Создание таблицы specializations
+-- Creating table 'specializations'
 CREATE TABLE specializations (
     id INT PRIMARY KEY IDENTITY(1,1),
     name NVARCHAR(100) NOT NULL,
     description NVARCHAR(MAX) NULL
 );
 
--- Создание таблицы groups
+-- Creating table 'groups'
 CREATE TABLE groups (
     id INT PRIMARY KEY IDENTITY(1,1),
     course_number INT NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE groups (
     FOREIGN KEY (specialization_id) REFERENCES specializations(id)
 );
 
--- Создание таблицы students
+-- Creating table 'students'
 CREATE TABLE students (
     id INT PRIMARY KEY IDENTITY(1,1),
     full_name NVARCHAR(100) NOT NULL,
