@@ -64,14 +64,23 @@
 Пример интерфейса приложения:
 
 1. **Главное окно** с выбором справочника (студенты, группы, специальности).
-   ![Main window](https://github.com/Juliet165/lab_database/blob/main/docs/main_page.png)
+
+
+   <img src="https://github.com/Juliet165/lab_database/blob/main/docs/main_page.png" width="700"/>
+
 
 2. **Добавление студента**.
-   ![Students table](https://github.com/Juliet165/lab_database/blob/main/docs/add_page.png)
+
+
+   <img src="https://github.com/Juliet165/lab_database/blob/main/docs/add_page.png" width="700"/>
 
 3. **Редактирование записи**.
-   ![Edit student](https://github.com/Juliet165/lab_database/blob/main/docs/edit2_page.png)
-   ![Edit group](https://github.com/Juliet165/lab_database/blob/main/docs/edit_page.png)
+
+
+   <img src="https://github.com/Juliet165/lab_database/blob/main/docs/edit2_page.png" width="700"/>
+
+
+   <img src="https://github.com/Juliet165/lab_database/blob/main/docs/edit_page.png" width="700"/>
 
 ---
 
